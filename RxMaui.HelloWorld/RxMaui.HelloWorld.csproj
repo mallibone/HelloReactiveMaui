@@ -56,16 +56,4 @@
 		<PackageReference Include="ReactiveUI.Maui" Version="18.4.26" />
 	</ItemGroup>
 
-<!--	<ItemGroup>-->
-<!--	  <MauiXaml Remove="Resources\Styles\Styles.xaml" />-->
-<!--	  <MauiXaml Remove="Resources\Styles\Colors.xaml" />-->
-<!--	</ItemGroup>-->
-<!--	<ItemGroup>-->
-<!--	  <BundleResource Include="Resources\Styles\Styles.xaml" Condition=" '$(EnableDefaultXamlItems)' == 'true' ">-->
-<!--	    <SubType>Designer</SubType>-->
-<!--	  </BundleResource>-->
-<!--	  <BundleResource Include="Resources\Styles\Colors.xaml" Condition=" '$(EnableDefaultXamlItems)' == 'true' ">-->
-<!--	    <SubType>Designer</SubType>-->
-<!--	  </BundleResource>-->
-<!--	</ItemGroup>-->
 </Project>

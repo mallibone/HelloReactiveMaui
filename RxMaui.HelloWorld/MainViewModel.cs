@@ -47,7 +47,6 @@ public class MainViewModel : ReactiveObject, IActivatableViewModel
 				    TimeSpan.FromMilliseconds(100), // give the view time to activate
 				    TimeSpan.FromMilliseconds(1000),
 				    RxApp.MainThreadScheduler)
-			    .Take(Traits.Length)
 			    .Do(
 				    t => {
 					    var newGreeting = $"Hello, {Traits[t % Traits.Length]} world !";

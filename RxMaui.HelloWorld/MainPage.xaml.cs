@@ -12,5 +12,3 @@ public partial class MainPage : ReactiveContentPage<MainViewModel>
 		this.WhenActivated(_ => { });
 	}
 }
-
-
